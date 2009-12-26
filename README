@@ -1,0 +1,14 @@
+
+$ cd larceny-gl
+
+$ larceny -err5rs
+
+> (import (larceny compiler))
+
+> (compile-library "gl.sls")
+
+> (compile-library "glut.sls")
+
+> (compile-library "glu.sls")
+
+Add path to 'larceny-gl' to your LARCENY_LIBPATH.
